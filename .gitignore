@@ -1,0 +1,16 @@
+# Ignore all appsettings files 
+
+AssignmentSubmissionSystem.Api/appsettings.json
+AssignmentSubmissionSystem.Api/appsettings.*.json
+
+AssignmentSubmissionSystem.Api/Implementation_Workflow.md
+
+Docs/
+
+AssignmentSubmissionSystem.Api/Docketfile
+Dockerfile
+
+.vs/
+.vscode/
+AssignmentSubmissionSystem.Api/bin/
+AssignmentSubmissionSystem.Api/obj/
