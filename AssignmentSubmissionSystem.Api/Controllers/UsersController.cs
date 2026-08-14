@@ -20,9 +20,13 @@ namespace AssignmentSubmissionSystem.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<UserDto>>> GetAll()
+        public async Task<ActionResult<IEnumerable<UserDto>>> GetAll([FromQuery] string? role = null)
         {
             var users = await _userService.GetAllAsync();
+            if (!string.IsNullOrEmpty(role))
+            {
+                users = users.Where(u => u.Role == role).ToList();
+            }
             return Ok(users);
         }
 

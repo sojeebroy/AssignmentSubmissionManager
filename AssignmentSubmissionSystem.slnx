@@ -1,4 +1,8 @@
 <Solution>
   <Project Path="AssignmentSubmissionSystem.Api.Tests/AssignmentSubmissionSystem.Api.Tests.csproj" Id="f40d4873-fb8f-4973-a6ca-ccad0c7efe9d" />
   <Project Path="AssignmentSubmissionSystem.Api/AssignmentSubmissionSystem.Api.csproj" />
+  <Project Path="AssignmentSubmissionSystem.React/assignmentsubmissionsystem.react.esproj">
+    <Build />
+    <Deploy />
+  </Project>
 </Solution>
